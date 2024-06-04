@@ -1,0 +1,85 @@
+:root {
+  --azul-profundo: #004D73;
+  --turquesa-claro: #4ECDC4;
+  --coral: #FF6B6B;
+  --creme: #FFFAF3;
+  --cinza-medio: #B3B3B3;
+  --cinza-claro: #EFEFEF;
+  --cinza: #444444;
+  --preto: #000000;
+  --branco: #FFFFFF;
+
+  --font-family-padrao: Nunito Sans, sans-serif;
+  --cabecalhos: Paytone One, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: 0;
+  background-color: inherit;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--creme);
+  font-family: var(--font-family-padrao);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  background: url('./imagens/fundo-banner.png'), var(--azul-profundo);
+}
+
+.cabecalho-lg {
+  font-family: var(--cabecalhos);
+  font-size: 3em;
+  line-height: 120%; /* 4.0275em */
+}
+
+.cabecalho {
+  font-family: var(--cabecalhos);
+  font-size: 2em;
+  line-height: 120%; /* 3.3em */
+}
+
+.subtitulo-lg {
+  font-size: 1.2em;
+  line-height: 150%; /* 2.90625em */
+}
+
+.paragrafo-lg {
+  font-size: 1em;
+  line-height: 150%; /* 2.90625em */
+  text-align: center;
+}
+
+.paragrafo {
+  font-size: 1em;
+  line-height: 150%; /* 1.6875em */
+}
+
+@media only screen and (max-width: 767px) {
+  .cabecalho-lg {
+    font-size: 2em;
+  }
+
+  .cabecalho {
+    font-size: 2em;
+  }
+
+  .subtitulo-lg {
+    font-size: 1.05em;
+  }
+}
+
