@@ -21,7 +21,7 @@ Este projeto é uma demonstração de habilidades em Vue.js, CSS, TypeScript e J
 
 ### 💻 Como Acessar
 
-Você pode acessar o WanderLust diretamente [aqui](). 👀
+Você pode acessar o WanderLust diretamente [aqui](https://wander-lust-teal.vercel.app/). 👀
 
 ## 🚀 Tecnologias Utilizadas
 
