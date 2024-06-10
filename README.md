@@ -31,4 +31,4 @@ Você pode acessar o WanderLust diretamente [aqui](https://wander-lust-teal.verc
 - JavaScript
 
 ---
-Desenvolvido por [Carolina Lima](https://github.com/CarolinaLM)👩‍💻 - 2024# WanderLust
+Desenvolvido por [Carolina Lima](https://github.com/CarolinaLM)👩‍💻 - 2024
